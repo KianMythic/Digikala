@@ -1,0 +1,154 @@
+header{
+    width: 100%;
+    height: 170px;
+    box-shadow: 0 1px 1px grey;
+    margin-bottom: 10px;
+    display: fixed;
+    left: 0;
+    top: 0;
+    .banner{
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        img{
+            width:inherit;
+            height: inherit;
+            object-fit: cover;
+        }
+    }
+    .center{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-flow: row wrap;
+        .center-logo{
+            width: 20%;
+            height: inherit;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            img{
+                width: 196px;
+            }
+        }
+        .center-search{
+            width:60% ;
+            height: inherit;
+            padding-right: 10px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            input[type="text"]{
+                width: 600px;
+                height: 40px;
+                border: unset;
+                border-radius: 7px;
+                padding-right: 60px;
+                background-color: #F0F0F1;
+                &::placeholder{
+                    font-family: var(--fontFamily);
+                }
+            }
+            img{
+                position: absolute;
+                right: 40px;
+                top: 25px;
+            }
+        }
+        .center-register{
+            width: 20%;
+            height: inherit;
+            display: flex;
+            align-items: center;
+            padding-right: 20px;
+            column-gap: 15px;
+            .center-register-link{
+                display: block;
+                width: 140px;
+                height: 40px;
+                border: 1px solid lightgrey;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 5px;
+                font-family: var(--fontFamily);
+                font-size: 12px;
+                text-decoration: none;
+                color: #1b1b1b;
+                font-weight: 600;
+                border-radius: 7px;
+                span{
+                    display: inline-block;
+                    width: 2px;
+                    height: 15px;
+                    background-color: #1b1b1b;
+                }
+            }
+            span{
+                display: inline-block;
+                width: 1px;
+                height: 30px;
+                background-color: lightgray;
+            }
+
+        }
+    }
+    .menu{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        flex-flow: row wrap;
+        padding-right: 186px;
+        .right{
+            width: 80%;
+            height: inherit;
+            .nav{
+                width: 100%;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                column-gap: 10px;
+                align-items: center;
+                div{
+                    width: fit-content;
+                    height: inherit;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        width: inherit;
+                        height: inherit;
+                        padding: 0 5px;
+                        text-decoration: none;
+                        color: grey;
+                        font-family: var(--fontFamily);
+                        font-size: 12px;
+                        line-height: 40px;
+                    }
+                }
+            }
+        }
+        .left{
+            width: 20%;
+            height: inherit; 
+            display: flex;
+            flex-flow: row wrap;
+            column-gap: 10px;
+            align-items: center;
+            padding-right: 10px;
+            span{
+                font-family: var(--fontFamily);
+                font-size: 12px;
+            }
+        }
+    }
+}
+.active{
+    color: #1b1b1b !important;
+    font-size: 13px !important;
+    font-weight: bold;
+}
+.hr-vertical{
+    width: 1px !important;
+    height: 20px !important;
+    background-color: lightgrey;
+}
