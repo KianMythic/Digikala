@@ -1,0 +1,29 @@
+.ADS1 {
+    width: 100%;
+    height: 250px;
+    
+    .ADS1-center {
+        width: 90%;
+        height: inherit;
+        
+        margin: 50px auto;
+        border-radius: 15px;
+    
+    .ADS1-items {
+        width: 100%;
+        height: inherit;
+        img {
+            height: 241.5px;
+            width: 322px;
+            border-radius: 15px;
+        }
+    }
+
+
+    }
+}
+
+.margin-left {
+
+    margin-left: 5px;
+}

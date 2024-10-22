@@ -1,0 +1,100 @@
+.favorite{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+    .favorite-center{
+        border: 1px solid lightgray;
+        width: 90%;
+        padding: 10px;
+        border-radius: 15px;
+        height: inherit;
+        .favorite-center-top{
+            width:100% ;
+            height: 80px;
+            .favorite-center-title {
+                width: inherit;
+                height: inherit;
+                font-family: var(--fontFamily);
+                text-align: center;
+                font-size: 21px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 5px;
+                padding-bottom: 10px;
+              }
+            }
+        
+        }
+        .favorite-center-bottom{
+            width:100% ;
+            height:calc(400px - 80px);
+            .swiper {
+                width: 100%;
+                height: 93%;
+              }
+          
+              .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                padding-left: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .swiper-slider-product{
+                    width: inherit;
+                    height: inherit;
+                    display: flex;
+                    flex-flow: column wrap;
+                    .item{
+                        width: 100%;
+                        height: 33%;
+                        display: flex;
+                        flex-flow: row wrap;
+                        align-items: center;
+                        column-gap: 10px;
+                        .item-image{
+                            width: 86px;
+                            height: 86px;
+                        }
+                        .item-number{
+                            font-family: var(--fontFamilyNumber);
+                            font-size: 30px;
+                            color: aqua;
+                        }
+                        .item-text{
+                            width: 50%;
+                            font-family: var(--fontFamily);
+                            font-size: 11px;
+                            line-height: 20px;
+                            text-align: right;
+                            overflow: hidden;
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 2;
+                        }
+                    }
+                }
+              }
+          
+              .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+        }
+    }
+
+
+.item-border{
+    width: 60%;
+    height: 1px;
+    background-color: rgb(240, 235, 235);
+    margin-right: auto;
+}
+
+
