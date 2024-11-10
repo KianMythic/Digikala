@@ -1,0 +1,66 @@
+.danestaniha {
+  font-family: var(--fontFamily);
+  height: 346px;
+  width: 100%;
+
+  .danestaniha-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    .danestaniha-title {
+      font-size: 18px;
+      color: #333;
+      padding-right: 100px;
+    }
+    .danestaniha-more-link {
+      font-size: 14px;
+      color: #00a59e;
+      text-decoration: none;
+      padding-left: 100px;
+      img {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+  .danestaniha-cards {
+    display: flex;
+    gap: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    .danestaniha-cards {
+      display: flex;
+      gap: 15px;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+    .danestaniha-card {
+      background-color: white;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      overflow: hidden;
+      width: 100%;
+      height: 270px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      transition: box-shadow 0.3s;
+    }
+    .danestaniha-card:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+    .danestaniha-card-image {
+      object-fit: cover;
+      height: 202px;
+      width: 100%;
+    }
+
+    .danestaniha-card-title {
+      color: #333;
+      font-weight: bold;
+      padding: 15px;
+      font-size: 14px;
+    }
+  }
+}

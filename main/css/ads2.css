@@ -1,34 +1,29 @@
 .ADS2 {
-    width: 100%;
-    height: 264px;
-    
-    .ADS2-center {
-        width: 90%;
-        height: inherit;
-        
-        margin: 50px auto;
-        border-radius: 15px;
-    
+  width: 100%;
+  height: 264px;
+
+  .ADS2-center {
+    width: 90%;
+    height: inherit;
+
+    margin: 50px auto;
+    border-radius: 15px;
+
     .ADS2-items {
-        width: 100%;
-        height: inherit;
-        .margin-left {
-
-            margin-left: 50px;
-        }
-        img {
-            height: 264px;
-            width: 630px;
-            border-radius: 15px;
-        
-        }
+      width: 100%;
+      height: inherit;
+      .margin-left {
+        margin-left: 50px;
+      }
+      img {
+        height: 264px;
+        width: 630px;
+        border-radius: 15px;
+      }
     }
-
-
-    }
+  }
 }
 
 .margin-left {
-
-    margin-left: px;
+  margin-left: px;
 }

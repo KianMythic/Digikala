@@ -1,0 +1,119 @@
+.amazing {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amazing-content {
+  width: 1335px;
+  height: 110px;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #ebeeed;
+  border-radius: 15px;
+}
+
+.amazing-end {
+  width: 40%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.amazing-basket {
+  width: 66px;
+  height: 62px;
+}
+
+.amazing-title {
+  width: 250px;
+  height: 28px;
+}
+
+.amazing-discount {
+  width: 122px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--fontFamily);
+  font-size: 14px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: #029a49;
+  border-radius: 20px;
+}
+
+.amazing-items {
+  width: 60%;
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 50px;
+  column-gap: 10px;
+  background-image: url("../images/logo/amazingmb.svg");
+  background-repeat: no-repeat;
+}
+
+.amazing-item {
+  position: relative;
+}
+
+.amazing-item-img {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefefe;
+  border-radius: 100%;
+}
+
+.amazing-item-img img {
+  width: 58px;
+  height: 58px;
+  border-radius: 100%;
+}
+
+.amazing-item-discount {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--fontFamily);
+  font-size: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: #d32f2f;
+  border-radius: 15px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.amazing-more {
+  width: 130px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+  font-family: var(--fontFamily);
+  font-size: 12px;
+  font-weight: bold;
+  color: #029a49;
+  background-color: #fefefe;
+  border-radius: 25px;
+}
+
+.amazing-more img {
+  width: 20px;
+  height: 20px;
+}

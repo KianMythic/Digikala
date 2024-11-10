@@ -1,0 +1,249 @@
+.daily {
+  width: 100%;
+  height: 360px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  .daily-content {
+    width: 1485px;
+    height: 345px;
+    border-radius: 7px;
+    background-image: url("../../images/amazingpage/daily/dailypattern.svg"),
+      linear-gradient(180deg, #e6123d, #c60c31);
+    background-repeat: repeat-x;
+
+    .daily-title {
+      margin: 0 16px;
+      padding: 16px 0;
+      text-decoration: none;
+      font-family: var(--fontFamily);
+      color: white;
+      font-size: 17px;
+      display: flex;
+      align-items: center;
+      height: 65px;
+
+      img {
+        width: 24px;
+        height: 24px;
+        margin-left: 8px;
+      }
+    }
+
+    .swiper {
+      width: 100%;
+      height: 75%;
+      padding: 0 20px;
+      margin-top: 5px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 7px;
+
+      .daily-swiper-slide {
+        width: inherit;
+        height: inherit;
+        padding: 8px 16px;
+        border-radius: 7px;
+
+        .daily-swiper-title {
+          margin-bottom: 4px;
+          height: 26px;
+          display: flex;
+          align-items: center;
+          img {
+            width: 116px;
+            height: 14px;
+          }
+        }
+
+        .daily-swiper-data {
+          display: flex;
+          .daily-swiper-image {
+            margin-left: 12px;
+            img {
+              width: 200px;
+              height: 200px;
+            }
+          }
+
+          .daily-swiper-info {
+            font-family: var(--fontFamily), sans-serif;
+            .daily-swiper-delivery {
+              width: 94px;
+              height: 24px;
+              border-radius: 10px;
+              padding: 0px 8px;
+              color: gray;
+              font-size: 10px;
+              font-weight: bold;
+              display: flex;
+              column-gap: 5px;
+              align-items: center;
+              margin-bottom: 4px;
+              img {
+                height: 18px;
+                width: 18px;
+              }
+            }
+            .daily-swiper-name {
+              font-size: 12.5px;
+              font-weight: bold;
+              text-align: right;
+              line-height: 26px;
+            }
+
+            .daily-swiper-detail {
+              margin-bottom: 4px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              height: 26px;
+              .daily-swiper-color {
+                display: flex;
+                column-gap: 10px;
+                font-size: 10px;
+
+                
+              }
+            }
+
+            .daily-swiper-discount {
+              display: flex;
+              justify-content: space-between;
+              height: 32px;
+              align-items: center;
+              .discount-percent {
+                width: 33px;
+                height: 18px;
+                padding: 0 2px;
+                color: white;
+                background-color: red;
+                font-size: 14px;
+                border-radius: 15px;
+                line-height: 20px;
+              }
+              .discount-price {
+                display: flex;
+                align-items: center;
+                column-gap: 5px;
+                font-size: 16px;
+                font-weight: bold;
+                img {
+                  width: 16px;
+                  height: 16px;
+                }
+              }
+            }
+
+            .daily-swiper-real-price {
+              text-decoration: line-through;
+              font-size: 12px;
+              text-align: left;
+              padding-left: 20px;
+              height: 26px;
+              line-height: 26px;
+              color: #808080aa;
+            }
+          }
+        }
+      }
+
+      .daily-swiper-slide-more {
+        width: inherit;
+        height: inherit;
+        background-color: rgb(251, 251, 251);
+        display: flex;
+        align-items: flex-end;
+        border-radius: 7px;
+
+        .daily-swiper-slide-more-data {
+          width: 578px;
+          height: 200px;
+          position: relative;
+
+          .daily-swiper-box {
+            height: 200px;
+            width: 200px;
+
+            padding: 0 10px 10px 0;
+          }
+        }
+        .daily-swiper-more-discount {
+          height: inherit;
+          width: inherit;
+          background-color: rgba(0, 0, 0, 0.65);
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: center;
+          align-items: center;
+          row-gap: 28px;
+          border-radius: 7px;
+          position: absolute;
+
+          .daily-swiper-lock {
+            height: 80px;
+            width: 80px;
+            background-color: #ef4056;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+              height: 45px;
+              width: 45px;
+            }
+          }
+          .daily-swiper-text {
+            font-family: var(--fontFamily);
+            font-size: 16px;
+            text-align: center;
+            color: white;
+          }
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.daily-swiper-rate {
+  display: flex;
+  column-gap: 10px;
+  font-size: 11px;
+  font-weight: bold;
+
+  img {
+    height: 16px;
+    width: 16px;
+  }
+}
+
+
+
+.daily-color-silver {
+  background-color: silver;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+.amaze-time-bar {
+  height: 5px;
+  width: 90%;
+  margin: 1px auto;
+  background: linear-gradient(to right, red 70%, gray 30%);
+}
+

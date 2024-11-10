@@ -19,7 +19,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      .swiper-slide-item{
+      .swiper-slide-item {
         width: inherit;
         height: inherit;
         display: flex;
@@ -27,19 +27,19 @@
         align-items: center;
         padding-top: 20px;
         row-gap: 15px;
-        img{
-            width: 74px;
-            height: 74px;
-            border-radius: 50%;
-            outline: 2px solid blueviolet;
-            outline-offset: 3px;
+        img {
+          width: 74px;
+          height: 74px;
+          border-radius: 50%;
+          outline: 2px solid blueviolet;
+          outline-offset: 3px;
         }
-        h5{
-            font-size: 10px;
-            font-family: var(--fontFamily);
-            font-weight: normal;
-            width: 70%;
-            line-height: 20px;
+        h5 {
+          font-size: 10px;
+          font-family: var(--fontFamily);
+          font-weight: normal;
+          width: 70%;
+          line-height: 20px;
         }
       }
     }

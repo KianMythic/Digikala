@@ -13,4 +13,15 @@
 @import "./offertop.css";
 @import "./brand.css";
 @import "./digiclub.css";
+@import "./supermarket.css";
+@import "./amazing.css";
+@import "./danestaniha.css";
+@import "./footer.css";
+
+/* amazing */
+@import "./amazing/slider.css";
+@import "./amazing/daily.css";
+@import "./amazing/categoryamaze.css";
+@import "./amazing/amaze-time.css";
+@import "./amazing/all-items.css";
 

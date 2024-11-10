@@ -51,3 +51,31 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  var swiper = new Swiper(".myDaily", {
+    slidesPerView: 2.35,
+    spaceBetween: 15,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  var swiper = new Swiper(".mycategoryamazew", {
+    slidesPerView: 10.5,
+    spaceBetween: 24,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+
+  var swiper = new Swiper(".myamaze-time", {
+    slidesPerView: 7,
+    spaceBetween: 24,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });

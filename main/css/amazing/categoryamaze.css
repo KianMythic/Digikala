@@ -1,0 +1,58 @@
+.amaze-category {
+  width: 100%;
+  height: 206px;
+  padding: 20px 0;
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .category-amazew-swiper-slide {
+      width: inherit;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      padding: 9px 0;
+      margin-right: 8px;
+
+      .category-amazew-swiper-image {
+        width: 90px;
+        height: 90px;
+        margin: 12px 8px;
+        img {
+          width: inherit;
+          height: inherit;
+        }
+      }
+      .category-amazew-swiper-title {
+        font-family: var(--fontFamily);
+        font-size: 12px;
+        height: 30px;
+        padding: 0 5px;
+      }
+    }
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.first-item {
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #f0f0f1;
+}

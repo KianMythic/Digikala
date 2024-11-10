@@ -21,70 +21,69 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      .swiper-slide-item{
+      .swiper-slide-item {
         width: inherit;
         height: inherit;
         display: flex;
         flex-flow: column wrap;
         align-items: center;
-        
-        img{
-            width: 88px;
-            height: 88px;
-            margin-bottom: 10px;
-        }
-        .clock{
-            width: 100%;
-            height: 25px;
-            display: flex;
-            justify-content: center;
-            flex-flow: row-reverse wrap;
-            column-gap: 5px;
-            align-items: center;
-            margin-bottom: 20px;
-            .hours,.minutes,.seconds{
-                width: 35px;
-                height: 35px;
-                line-height: 35px;
-                background-color: whitesmoke;
-                font-size: 20px;
-                font-weight: bold;
-                font-family: var(--fontFamilyNumber);
-                border-radius: 5px;
-            }
-            .colon{
-                color: whitesmoke;
-                font-size: 20px;
-            }
-            
 
+        img {
+          width: 88px;
+          height: 88px;
+          margin-bottom: 10px;
         }
-        .smile{
-            width: 80px;
-            height: 80px;
-        }
-        a{
-            text-decoration: none;
+        .clock {
+          width: 100%;
+          height: 25px;
+          display: flex;
+          justify-content: center;
+          flex-flow: row-reverse wrap;
+          column-gap: 5px;
+          align-items: center;
+          margin-bottom: 20px;
+          .hours,
+          .minutes,
+          .seconds {
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            background-color: whitesmoke;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: var(--fontFamilyNumber);
+            border-radius: 5px;
+          }
+          .colon {
             color: whitesmoke;
-            font-family: var(--fontFamily);
-            font-size: 14px;
+            font-size: 20px;
+          }
+        }
+        .smile {
+          width: 80px;
+          height: 80px;
+        }
+        a {
+          text-decoration: none;
+          color: whitesmoke;
+          font-family: var(--fontFamily);
+          font-size: 14px;
         }
       }
-      .swiper-slider-product{
-        width: 161px ;
+      .swiper-slider-product {
+        width: 161px;
         height: 256px;
         display: flex;
         flex-flow: column wrap;
         align-items: center;
-        padding:10px 5px ;
-        
-        .image{
+        padding: 10px 5px;
+
+        .image {
           width: 132px;
           height: 132px;
           margin-bottom: 10px;
-          
         }
-        .text{
+        .text {
           font-size: 13px;
           font-family: var(--fontFamily);
           color: gray;
@@ -93,27 +92,27 @@
           -webkit-line-clamp: 2;
           overflow: hidden;
           line-height: 20px;
-          width: 80%;
+          width: 100%;
           margin: 5px auto;
         }
-        .price{
+        .price {
           width: 100%;
           display: flex;
           flex-flow: row wrap;
           justify-content: space-between;
-          h3{
+          h3 {
             font-family: var(--fontFamilyNumber);
             font-size: 14px;
             font-weight: bold;
             display: flex;
             align-items: center;
             font-size: 16px;
-            img{
+            img {
               width: 16px;
               height: 16px;
             }
           }
-          span{
+          span {
             font-family: var(--fontFamilyNumber);
             display: inline-block;
             width: 40px;
@@ -122,11 +121,10 @@
             border-radius: 401px;
             background-color: crimson;
             font-size: 16px;
-            height:25px;
+            height: 25px;
           }
-
         }
-        .old-price{
+        .old-price {
           width: 100%;
           text-align: left;
           padding-left: 20px;
@@ -137,7 +135,6 @@
           font-family: var(--fontFamilyNumber);
         }
       }
-
     }
 
     .swiper-slide img {
@@ -149,9 +146,9 @@
   }
 }
 
-.removeBgOffer{
-    background-color: transparent !important;
+.removeBgOffer {
+  background-color: transparent !important;
 }
-.borderLeftRadius{
+.borderLeftRadius {
   border-radius: 10px 0 0 10px;
 }
